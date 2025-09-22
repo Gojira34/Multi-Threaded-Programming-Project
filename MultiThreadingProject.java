@@ -10,7 +10,7 @@ import java.util.Arrays;
  * sorting them separately in parallel threads
  * and then retrieving the sorted arrays
  * Merging the two sorted arrays into one
- * @authors Nil Patel
+ * @authors Nil Patel, Jaylen Perry, Payne Micael, Josue Ndeko
  */
 
 // Runnable class that performs selection sort on an array
