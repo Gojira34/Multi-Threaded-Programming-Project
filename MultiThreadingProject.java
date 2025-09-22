@@ -10,10 +10,9 @@ import java.util.Arrays;
  * sorting them separately in parallel threads
  * and then retrieving the sorted arrays
  * Merging the two sorted arrays into one
- * @authors Nil Patel, Jaylen Perry, Payne Micael, Josue Ndeko
+ * @authors Nil Patel
  */
 
-//@author Jaylen Perry, Nil Patel
 // Runnable class that performs selection sort on an array
 class SortThread implements Runnable {
     private int[] SortingArray;     // The array this thread will sort
@@ -55,7 +54,6 @@ class SortThread implements Runnable {
 public class MultiThreadingProject {
     
     public static void main(String[] args) {
-        //@author Payne Micael
         Scanner input = new Scanner(System.in);
         
         // Declares Array for data
@@ -110,7 +108,6 @@ public class MultiThreadingProject {
         System.out.println("Merged Array: " + Arrays.toString(sortedMerged));
     }
     
-    //@author Josue Ndeko, Nil Patel
     // method to merge two sorted arrays into one
     static int[] mergeArrays(int[] firstHalf, int[] secondHalf) {
         int i = 0; //pointer for frstHalf Array
